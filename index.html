@@ -14,13 +14,10 @@
           $("#QueryText").keyup(function(){
             console.log($("#QueryText").val().length);
             if($("#QueryText").val().length != 0){
-              alert("There is text");
-              //$("#DivSearch").css({"opacity": "0.25", "background": "rgba(0, 0, 0, 0.8)", "filter": "blur(5px)"});
-              $("#DivSearch").css("top", "0%");
+              $(".DivSearch").css({"opacity": "90%", "filter": "blur(0px)"});
             }
             else{
-              alert("No text");
-              $("#DivSearch").css({"opacity": "100%", "background": "rgba(0, 0, 0, 0.8)", "filter": "blur(0px)"});
+              $(".DivSearch").css({"opacity": "0.25", "filter": "blur(5px)"});
             }
           });
         });
@@ -55,92 +52,109 @@
       <!--======   LEFT ==========-->
       
       
-      <li class="LeftInnerTopTop" style="top: -76.5%; left: 36.5%;"><div class = "bg" style="background:linear-gradient(to top right, #e70b1e 0%, #b319a9 100%);">
-        <a href="http://www.instagram.com/">
+      <li class="LeftInnerTopTop" style="top: -76.5%; left: 36.5%;">
+        <div class = "bg" style="background:linear-gradient(to top right, #137FC8 0%, #137FC8 100%);">
+          <a href="https://learnpro.co.uk/">
+          <div class="Overlay"></div>
+              <div class="LinkIcon"><img src="images/LearnPro.png" alt="LearnPro"></div>
+              </a>
+              </div>
+        </li>
+      
+    <li class="LeftInnerTopBottom" style="top: -5.5%; left: 18.7%;">
+      <div class="bg" style="background:linear-gradient(to top right, #1E202F 0%, #1E202F 100%);">
+        <a href="https://www.e-careers.com/login">
         <div class="Overlay"></div>
-            <div class="LinkIcon"><i class="fa fa-instagram"></i></div>
+        <div class="LinkIcon"><img src="images/eCareers.png" alt="eCareers"></div>
             </a>
             </div>
       </li>
       
-    <li class="LeftInnerTopBottom" style="top: -5.5%; left: 18.7%;"><div class = "bg" style="background:linear-gradient(to top right, #20305f 0%, #0a5485 100%);">
-        <a href="http://www.outlook.com">
-        <div class="Overlay"></div>
-            <div class="LinkIcon"><img src="images/Outlook.png" alt="Outlook"></div>
-            </a>
-            </div>
-      </li>
-      
-    <li class="LeftInnerBottomTop" style="bottom: -5%; left: 18.7%;"><div class="bg" style="background:linear-gradient(to top right, #fd9927 0%, #fd9927 100%);">
+    <li class="LeftInnerBottomTop" style="bottom: -5%; left: 18.7%;"><div class="bg" style="background:linear-gradient(to top right, #008D8E 0%, #008D8E 100%);">
+      <a href="https://www.gov.uk/government/organisations/hm-revenue-customs">
+      <div class="Overlay"></div>
+      <div class="LinkIcon"><img src="images/HMRC.png" alt="HMRC"></div>
+          </a>
+          </div>
+    </li>
+
+    <!-- <li class="LeftInnerBottomTop" style="bottom: -5%; left: 18.7%;"><div class="bg" style="background:linear-gradient(to top right, #fd9927 0%, #fd9927 100%);">
         <a href="http://www.amazon.com">
         <div class="Overlay"></div>
         <div class="LinkIcon"><i class="fa fa-amazon"></i></div>
             </a>
             </div>
-      </li>
+      </li> -->
       
-      <li class="LeftMiddleMiddle" style="bottom: 66.5%; left: 0.6%;"><div class="bg" style="background:linear-gradient(to top right, #fc4228 0%, #e35838 100%);">
-        <a href="http://www.reddit.com">
-        <div class="Overlay"></div>
-        <div class="LinkIcon"><i class="fa fa-reddit"></i></div>
-            </a>
-            </div>
-      </li>
-      
-      
-      <li class="RightInnerBottomBottom" style="bottom: -76.5%; left: 36.5%;"><div class = "bg" style="
-    background:linear-gradient(to top right, #1178b3 0%, #1178b3 100%);">
-        <a href="http://www.linkedin.com">
-        <div class="Overlay"></div>
-            <div class="LinkIcon"><i class="fa fa-linkedin"></i></div>
-            </a>
-            </div>
-      </li>
-      
-      <li class="RightMiddleBottom" style="top: -76.5%; left: 0.6%;"><div class = "bg" style="
-    background:linear-gradient(to top right, #f28033 0%, #f28033 100%);">
-        <a href="http://www.stackoverflow.com">
-        <div class="Overlay"></div>
-            <div class="LinkIcon"><i class="fab fa-stack-overflow"></i></div>
-            </a>
-            </div>
-      </li>
-      
-      <li class="RightMiddleBottom" style="bottom: -76.5%; left: 0.6%;"><div class = "bg" style="
-    background:linear-gradient(to top right, #1175c4 0%, #1175c4 100%);">
-        <a href="http://www.outlook.com">
-        <div class="Overlay"></div>
+      <li class="LeftMiddleMiddle" style="bottom: 66.5%; left: 0.6%;">
+        <div class="bg" style="background:linear-gradient(to top right, #1175c4 0%, #1175c4 100%);">
+          <a href="http://www.outlook.com">
+            <div class="Overlay"></div>
             <div class="LinkIcon"><img src="images/Outlook.png" alt="Outlook"></div>
-            </a>
-            </div>
+          </a>
+        </div>
       </li>
       
       
-    <li class="LeftOuterTop" style="top: -5.5%; left: -17.3%;"><div class = "bg" style="background:linear-gradient(to top right, #da4b42 0%, #da4b42 100%);">
-        <a href="https://www.google.com/gmail">
+      <li class="RightInnerBottomBottom" style="bottom: -76.5%; left: 36.5%;">
+        <div class = "bg" style="
+        background:linear-gradient(to top right, #000000 0%, #000000 100%);">
+            <a href="https://www.gov.uk/government/organisations/companies-house">
+            <div class="Overlay"></div>
+                <div class="LinkIcon"><img src="images/CompanyHouse.png" alt="CompanyHouse"></div>
+                </a>
+                </div>
+          </li>
+      
+      <li class="RightMiddleBottom" style="top: -76.5%; left: 0.6%;">
+        <div class = "bg" style="
+        background:linear-gradient(to top right, #1178b3 0%, #1178b3 100%);">
+            <a href="http://www.linkedin.com">
+            <div class="Overlay"></div>
+                <div class="LinkIcon"><i class="fa fa-linkedin"></i></div>
+                </a>
+                </div>
+          </li>
+      
+      <li class="RightMiddleBottom" style="bottom: -76.5%; left: 0.6%;">
+        <div class = "bg" style="background:linear-gradient(to top right, #25A23F 0%, #25A23F 100%);">
+          <a href="https://www.accountancymanager.co.uk/">
+          <div class="Overlay"></div>
+              <div class="LinkIcon"><img src="images/AccountancyManager.png" alt="AccountancyManager"></div>
+              </a>
+              </div>
+        </li>
+      
+      
+    <li class="LeftOuterTop" style="top: -5.5%; left: -17.3%;">
+      <div class = "bg" style="background:linear-gradient(to top right, #BEBEBE 0%, #BEBEBE 100%);">
+          <a href="https://www.google.com/maps/search/50%C2%B035'09.5%22N+2%C2%B001'49.6%22W?sa=X&ved=2ahUKEwj1gOm83af1AhUBQkEAHb0IARUQ8gF6BAgOEAE">
+          <div class="Overlay"></div>
+              <div class="LinkIcon"><i class="fa fa-map-pin"></i></div>
+              </a>
+              </div>
+        </li>
+      
+      
+    <li class="LeftInnerBottomTop" style="bottom: -5%; left: -17.3%;">
+      <div class = "bg" style="background:linear-gradient(to top right, #BEBEBE 0%, #BEBEBE 100%);">
+        <a href="https://www.google.com/maps/place/50%C2%B050'30.9%22N+0%C2%B025'22.4%22E/@50.8419167,0.4228889,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xba3931c4b2f0c192!8m2!3d50.8419167!4d0.4228889">
         <div class="Overlay"></div>
-        <div class="LinkIcon"><i class="far fa-envelope"></i></div>
+            <div class="LinkIcon"><i class="fa fa-map-pin"></i></div>
             </a>
             </div>
       </li>
       
       
-    <li class="LeftInnerBottomTop" style="bottom: -5%; left: -17.3%;"><div class="bg" style="background:linear-gradient(to top right, #1ba6ec 0%, #1ba6ec 100%);">
-        <a href="http://www.microsoft.com">
-        <div class="Overlay"></div>
-        <div class="LinkIcon"><i class="fab fa-microsoft"></i></div>
-            </a>
-            </div>
-      </li>
-      
-      
-      <li class="LeftMiddleMiddle" style="bottom: 66.5%; left: -35.4%;"><div class="bg" style="background:linear-gradient(to top right, #c0c0c0 0%, #c0c0c0 100%);">
-        <a href="http://www.wikipedia.com">
-        <div class="Overlay"></div>
-        <div class="LinkIcon"><i class="fab fa-wikipedia-w"></i></div>
-            </a>
-            </div>
-      </li>
+      <li class="LeftMiddleMiddle" style="bottom: 66.5%; left: -35.4%;">
+        <div class = "bg" style="
+        background:linear-gradient(to top right, #BEBEBE 0%, #BEBEBE 100%);">
+            <a href="https://www.google.com/maps/search/51%C2%B018'55.9%22N+0%C2%B021'10.7%22E?sa=X&ved=2ahUKEwij_8-g3Kf1AhXLUMAKHQ--ChAQ8gF6BAgHEAE">
+            <div class="Overlay"></div>
+                <div class="LinkIcon"><i class="fa fa-map-pin"></i></div>
+                </a>
+                </div>
+          </li>
       
       
       
@@ -214,13 +228,14 @@
             </div>
       </li>
       
-      <li class="RightMiddleBottom" style="bottom: -76.5%; left: 107.6%;"><div class = "bg" style="background:linear-gradient(to top right, #f1a532 0%, #7cbc4a 100%);">
-        <a href="http://www.ebay.co.uk">
-        <div class="Overlay"></div>
-            <div class="LinkIcon"><i class="fab fa-ebay"></i></div>
-            </a>
-            </div>
-      </li>
+      <li class="RightMiddleBottom" style="bottom: -76.5%; left: 107.6%;">
+        <div class = "bg" style="background:linear-gradient(to top right, #da4b42 0%, #da4b42 100%);">
+          <a href="https://www.google.com/gmail">
+          <div class="Overlay"></div>
+          <div class="LinkIcon"><i class="far fa-envelope"></i></div>
+              </a>
+              </div>
+        </li>
       
       <li class="RightMiddleTop" style="top: -76.5%; left: 107.6%;"><div class = "bg" style="background:linear-gradient(to top right, #2aa3ef 0%, #2aa3ef 100%);">
         <a href="http://www.twitter.com">
