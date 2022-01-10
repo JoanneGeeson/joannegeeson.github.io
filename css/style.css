@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
 
-    //background: url(../images/FujiWallpaper.jpg);
+    background: url(../images/lulworth.jpg);
     /*background: #000;*/
     /*background: url(https://data.1freewallpapers.com/download/milky-way-over-mt-fuji-1920x1200.jpg);/*
     background: url(https://images-na.ssl-images-amazon.com/images/I/81kTrSqMuLL._AC_SL1135_.jpg);*/
     /*background: url(https://wallpaperaccess.com/full/493220.jpg);*/
     /*background: url(https://lh3.googleusercontent.com/proxy/BzWCmpHhtrRKP_l-N7UJ61SQlnWjVTi75GKG9R5Sj5Fr1O1utogiqrEJOKmJXMj_PtzjKTZGjbmpNBGuOhHHX1orIy-qPys-SkbTVQSc9Ug);*/
-    background: url(https://images.wallpapersden.com/image/download/dorset-bay-lulworth-cov-in-england_bGdrbWyUmZqaraWkpJRpZWVlrWdnamU.jpg);
+    //background: url(https://images.wallpapersden.com/image/download/dorset-bay-lulworth-cov-in-england_bGdrbWyUmZqaraWkpJRpZWVlrWdnamU.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
