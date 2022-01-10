@@ -14,13 +14,10 @@
           $("#QueryText").keyup(function(){
             console.log($("#QueryText").val().length);
             if($("#QueryText").val().length != 0){
-              alert("There is text");
-              //$("#DivSearch").css({"opacity": "0.25", "background": "rgba(0, 0, 0, 0.8)", "filter": "blur(5px)"});
-              $("#DivSearch").css("top", "0%");
+              $(".DivSearch").css({"opacity": "90%", "filter": "blur(0px)"});
             }
             else{
-              alert("No text");
-              $("#DivSearch").css({"opacity": "100%", "background": "rgba(0, 0, 0, 0.8)", "filter": "blur(0px)"});
+              $(".DivSearch").css({"opacity": "0.25", "filter": "blur(5px)"});
             }
           });
         });
